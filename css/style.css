@@ -1,0 +1,187 @@
+/*=============Общие==============*/
+:root {
+  --primary-font-color: #757575;
+  --fonts-accent-color: #212121;
+  --hover-accent: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-no-style {
+  list-style: none;
+}
+
+/*=============/Общие==============*/
+
+/*=============Header==============*/
+.logo,
+.logo:visited,
+.logo:focus,
+.logo:hover {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-color {
+  color: var(--hover-accent);
+}
+
+header a,
+header a:visited {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--fonts-accent-color);
+}
+
+header a:hover,
+header a:focus,
+.list-no-style .current {
+  color: var(--hover-accent);
+}
+
+/*=============/Header==============*/
+
+/*=============Лозунг==============*/
+.hero-baclkground {
+  background: #2f303a;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button,
+.button a:visited {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/*=============/Лозунг==============*/
+
+/*=============About==============*/
+.about h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fonts-accent-color);
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+/*=============/About==============*/
+
+/*=============Деятельность==============*/
+.work h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1666;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--fonts-accent-color);
+}
+/*=============/Деятельность==============*/
+
+/*=============Наша команда==============*/
+.team h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1666;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--fonts-accent-color);
+}
+.team {
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team h3 {
+  font-weight: 500;
+  color: var(--fonts-accent-color);
+}
+.team p {
+  color: var(--primary-font-color);
+}
+
+/*=============/Наша команда==============*/
+
+/*=============/footer==============*/
+
+.address [href="#"],
+.address [href="#"]:visited,
+.address [href="#"]:hover,
+.address [href="#"]:focus {
+  color: #ffffff;
+}
+
+.address a,
+.address a:visited,
+.address a:hover,
+.address a:focus {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*=============/footer==============*/
+
+/*=============Portfolio.html==============*/
+.menu,
+.menu a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--fonts-accent-color);
+}
+.menu a:hover,
+.menu a:focus {
+  color: #ffffff;
+}
+
+.products h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--fonts-accent-color);
+}
+
+.products p {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+/*=============/Portfolio.html==============*/
