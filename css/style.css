@@ -3,11 +3,13 @@
   --primary-font-color: #757575;
   --fonts-accent-color: #212121;
   --hover-accent: #2196f3;
+  --color-light: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  font-size: 14px;
 }
 
 a {
@@ -33,21 +35,20 @@ a {
   color: #000000;
 }
 
-.logo span {
+.logo-color {
   color: var(--hover-accent);
 }
 
-header a,
-header a:visited {
+.naviganion,
+.naviganion:visited {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.02em;
   color: var(--fonts-accent-color);
 }
 
-header a:hover,
-header a:focus,
+.naviganion:hover,
+.naviganion:focus,
 .list-no-style .current {
   color: var(--hover-accent);
 }
@@ -55,55 +56,40 @@ header a:focus,
 /*=============/Header==============*/
 
 /*=============Лозунг==============*/
-.hero {
-  padding-top: 200px;
-  padding-bottom: 280px;
-  background-color: #2f303a;
+.hero-background {
+  background: #2f303a;
 }
-h1 {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-light);
 }
 
 .button,
-.button a:visited {
+.button:visited {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-}
-.button {
-  margin-top: 30px;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  background: var(--hover-accent);
+  color: var(--color-light);
 }
 /*=============/Лозунг==============*/
 
 /*=============About==============*/
-.about h3 {
+.about-title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--fonts-accent-color);
 }
 
-.about p {
-  font-size: 14px;
+.about-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-font-color);
@@ -111,7 +97,7 @@ h1 {
 /*=============/About==============*/
 
 /*=============Деятельность==============*/
-.work h2 {
+.work-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1666;
@@ -122,7 +108,7 @@ h1 {
 /*=============/Деятельность==============*/
 
 /*=============Наша команда==============*/
-.team h2 {
+.team-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1666;
@@ -137,50 +123,43 @@ h1 {
   letter-spacing: 0.03em;
 }
 
-.team h3 {
+.team-name {
   font-weight: 500;
   color: var(--fonts-accent-color);
 }
-.team p {
+.team .profession {
   color: var(--primary-font-color);
 }
 
 /*=============/Наша команда==============*/
 
 /*=============/footer==============*/
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 215px;
-  background-color: #2f303a;
+.hero-background .logo {
+  color: var(--color-light);
 }
-
-.footer [href="./index.html"] {
-  color: #ffffff;
-}
-
-.address [href="#"],
-.address [href="#"]:visited,
-.address [href="#"]:hover,
-.address [href="#"]:focus {
-  color: #ffffff;
-}
-
-.address a,
-.address a:visited,
-.address a:hover,
-.address a:focus {
+.address .map,
+.address .map:visited,
+.address .map:hover,
+.address .map:focus {
   font-style: normal;
-  font-size: 14px;
+  color: var(--color-light);
+}
+
+.address .contacts,
+.address .contacts:visited,
+.address .contacts:hover,
+.address .contacts:focus {
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-light);
+  opacity: 0.6;
 }
 /*=============/footer==============*/
 
 /*=============Portfolio.html==============*/
 .menu,
-.menu a {
+.menu-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -188,12 +167,12 @@ h1 {
   letter-spacing: 0.03em;
   color: var(--fonts-accent-color);
 }
-.menu a:hover,
-.menu a:focus {
-  color: #ffffff;
+.menu-list:hover,
+.menu-list:focus {
+  color: var(--color-light);
 }
 
-.products h3 {
+.products-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -201,7 +180,7 @@ h1 {
   color: var(--fonts-accent-color);
 }
 
-.products p {
+.products-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
