@@ -20,6 +20,11 @@ a {
   list-style: none;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /*=============/Общие==============*/
 
 /*=============Header==============*/
@@ -33,6 +38,9 @@ a {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo-color {
@@ -45,6 +53,7 @@ a {
   line-height: 1.1428;
   letter-spacing: 0.02em;
   color: var(--fonts-accent-color);
+  display: inline-block;
 }
 
 .naviganion:hover,
@@ -52,12 +61,16 @@ a {
 .list-no-style .current {
   color: var(--hover-accent);
 }
-
+.flex {
+  display: flex;
+  align-items: center;
+}
 /*=============/Header==============*/
 
 /*=============Лозунг==============*/
-.hero-background {
+.hero {
   background: #2f303a;
+  outline: 2px solid rgb(102, 255, 71);
 }
 .hero-title {
   font-weight: 900;
@@ -67,6 +80,9 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-light);
+  padding-top: 200px;
+  margin: 0;
+  outline: 2px solid tomato;
 }
 
 .button,
@@ -74,10 +90,23 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-light);
+  background: var(--hover-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  /* display: inline-block; */
+  padding: 10px 32px;
+  outline: 2px solid tomato;
+  margin-top: 30px;
+  margin-bottom: 200px;
 }
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
 /*=============/Лозунг==============*/
 
 /*=============About==============*/
@@ -134,7 +163,7 @@ a {
 /*=============/Наша команда==============*/
 
 /*=============/footer==============*/
-.hero-background .logo {
+.hero .logo {
   color: var(--color-light);
 }
 .address .map,
