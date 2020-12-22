@@ -4,12 +4,14 @@
   --fonts-accent-color: #212121;
   --hover-accent: #2196f3;
   --color-light: #ffffff;
+
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
+  margin: 0;
 }
 
 a {
@@ -53,10 +55,12 @@ a {
   color: var(--hover-accent);
 }
 
+
 /*=============/Header==============*/
 
 /*=============Лозунг==============*/
 .hero {
+
   background: #2f303a;
   text-align: center;
   /* border: 2px solid green; */
@@ -82,10 +86,16 @@ a {
 
 .button,
 .button:visited {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+
   color: var(--color-light);
   background-color: var(--hover-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -97,20 +107,25 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 30px;
+
 }
 
 /*=============/Лозунг==============*/
 
 /*=============About==============*/
+
 .about-title {
   font-weight: bold;
+
   line-height: 1.1428;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--fonts-accent-color);
 }
 
+
 .about-text {
+
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-font-color);
@@ -118,7 +133,9 @@ a {
 /*=============/About==============*/
 
 /*=============Деятельность==============*/
+
 .work-title {
+
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1666;
@@ -129,7 +146,9 @@ a {
 /*=============/Деятельность==============*/
 
 /*=============Наша команда==============*/
+
 .team-title {
+
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1666;
@@ -144,17 +163,20 @@ a {
   letter-spacing: 0.03em;
 }
 
+
 .team-name {
   font-weight: 500;
   color: var(--fonts-accent-color);
 }
 .team .profession {
+
   color: var(--primary-font-color);
 }
 
 /*=============/Наша команда==============*/
 
 /*=============/footer==============*/
+
 .footer {
   background: #2f303a;
 }
@@ -178,12 +200,38 @@ a {
   letter-spacing: 0.03em;
   color: var(--color-light);
   opacity: 0.6;
+
+}
+
+.footer [href="./index.html"] {
+  color: #ffffff;
+}
+
+.address [href="#"],
+.address [href="#"]:visited,
+.address [href="#"]:hover,
+.address [href="#"]:focus {
+  color: #ffffff;
+}
+
+.address a,
+.address a:visited,
+.address a:hover,
+.address a:focus {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
 }
 /*=============/footer==============*/
 
 /*=============Portfolio.html==============*/
 .menu,
+
 .menu-list {
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -191,12 +239,14 @@ a {
   letter-spacing: 0.03em;
   color: var(--fonts-accent-color);
 }
+
 .menu-list:hover,
 .menu-list:focus {
   color: var(--color-light);
 }
 
 .products-title {
+
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -204,7 +254,9 @@ a {
   color: var(--fonts-accent-color);
 }
 
+
 .products-text {
+
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
