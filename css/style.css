@@ -10,6 +10,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
+  margin: 0;
 }
 
 a {
@@ -19,11 +20,13 @@ a {
 .list-no-style {
   list-style: none;
 }
-
+html {
+  box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 /*=============/Общие==============*/
 
