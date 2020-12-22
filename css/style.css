@@ -3,14 +3,16 @@
   --primary-font-color: #757575;
   --fonts-accent-color: #212121;
   --hover-accent: #2196f3;
-  --color-light: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+<<<<<<< HEAD
   font-size: 14px;
   margin: 0;
+=======
+>>>>>>> parent of a04c80d... скопировал дз2
 }
 
 a {
@@ -46,21 +48,22 @@ html {
   margin-bottom: 25px;
 }
 
-.logo-color {
+.logo span {
   color: var(--hover-accent);
 }
 
-.naviganion,
-.naviganion:visited {
+header a,
+header a:visited {
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.02em;
   color: var(--fonts-accent-color);
   display: inline-block;
 }
 
-.naviganion:hover,
-.naviganion:focus,
+header a:hover,
+header a:focus,
 .list-no-style .current {
   color: var(--hover-accent);
 }
@@ -72,28 +75,39 @@ html {
 
 /*=============Лозунг==============*/
 .hero {
+<<<<<<< HEAD
   background: #2f303a;
   outline: 2px solid rgb(102, 255, 71);
+=======
+  padding-top: 200px;
+  padding-bottom: 280px;
+  background-color: #2f303a;
+>>>>>>> parent of a04c80d... скопировал дз2
 }
-.hero-title {
+h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+<<<<<<< HEAD
   color: var(--color-light);
   padding-top: 200px;
   margin: 0;
   outline: 2px solid tomato;
+=======
+  color: #ffffff;
+>>>>>>> parent of a04c80d... скопировал дз2
 }
 
 .button,
-.button:visited {
+.button a:visited {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+<<<<<<< HEAD
   color: var(--color-light);
   background: var(--hover-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -108,20 +122,36 @@ html {
 .button-center {
   display: flex;
   justify-content: center;
+=======
+  color: #ffffff;
+}
+.button {
+  margin-top: 30px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background: var(--hover-accent);
+>>>>>>> parent of a04c80d... скопировал дз2
 }
 
 /*=============/Лозунг==============*/
 
 /*=============About==============*/
-.about-title {
+.about h3 {
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--fonts-accent-color);
 }
 
-.about-text {
+.about p {
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-font-color);
@@ -129,7 +159,7 @@ html {
 /*=============/About==============*/
 
 /*=============Деятельность==============*/
-.work-title {
+.work h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1666;
@@ -140,7 +170,7 @@ html {
 /*=============/Деятельность==============*/
 
 /*=============Наша команда==============*/
-.team-title {
+.team h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1666;
@@ -155,43 +185,55 @@ html {
   letter-spacing: 0.03em;
 }
 
-.team-name {
+.team h3 {
   font-weight: 500;
   color: var(--fonts-accent-color);
 }
-.team .profession {
+.team p {
   color: var(--primary-font-color);
 }
 
 /*=============/Наша команда==============*/
 
 /*=============/footer==============*/
+<<<<<<< HEAD
 .hero .logo {
   color: var(--color-light);
-}
-.address .map,
-.address .map:visited,
-.address .map:hover,
-.address .map:focus {
-  font-style: normal;
-  color: var(--color-light);
+=======
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
+  background-color: #2f303a;
+>>>>>>> parent of a04c80d... скопировал дз2
 }
 
-.address .contacts,
-.address .contacts:visited,
-.address .contacts:hover,
-.address .contacts:focus {
+.footer [href="./index.html"] {
+  color: #ffffff;
+}
+
+.address [href="#"],
+.address [href="#"]:visited,
+.address [href="#"]:hover,
+.address [href="#"]:focus {
+  color: #ffffff;
+}
+
+.address a,
+.address a:visited,
+.address a:hover,
+.address a:focus {
   font-style: normal;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--color-light);
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
 }
 /*=============/footer==============*/
 
 /*=============Portfolio.html==============*/
 .menu,
-.menu-list {
+.menu a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -199,12 +241,12 @@ html {
   letter-spacing: 0.03em;
   color: var(--fonts-accent-color);
 }
-.menu-list:hover,
-.menu-list:focus {
-  color: var(--color-light);
+.menu a:hover,
+.menu a:focus {
+  color: #ffffff;
 }
 
-.products-title {
+.products h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -212,7 +254,7 @@ html {
   color: var(--fonts-accent-color);
 }
 
-.products-text {
+.products p {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
