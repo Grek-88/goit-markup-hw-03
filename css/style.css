@@ -286,7 +286,6 @@ a {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--fonts-accent-color);
 
   display: flex;
   justify-content: center;
@@ -295,6 +294,7 @@ a {
 }
 
 .menu-list {
+  color: var(--fonts-accent-color);
   background: var(--second-background);
   border-radius: 4px;
   padding: 6px 22px;
